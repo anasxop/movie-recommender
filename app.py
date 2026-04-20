@@ -38,7 +38,7 @@ def get_recommendations(title):
     movie_indices = [i[0] for i in sim_scores]
     return df['title'].iloc[movie_indices].tolist()
 
-st.title("🎬 Movie Recommendation System by Anas, Prashant and Aditya")
+st.title("🎬 Movie Recommendation System by Anas, Sakshi and Kaif")
 
 movie_name = st.text_input("Enter a movie title:")
 if movie_name:
